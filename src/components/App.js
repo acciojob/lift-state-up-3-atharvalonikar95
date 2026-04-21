@@ -4,7 +4,7 @@ import './../styles/App.css';
 import Child from './comp/Child'
 const App = () => {
     const [selectedOption,setSelectedOption]=React.useState()
-    const handleOption=(optionNo:any)=>{
+    const handleOption=(optionNo)=>{
        setSelectedOption(optionNo)
         
     }
